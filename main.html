@@ -7,26 +7,28 @@
 </head>
 
 <body>
+	
     <!-- the entire body must be written by the student -->
-
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+    <button type="button" id="open-modal"class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
         Launch demo modal
     </button>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
+            <div class="modal-content" id="newton-modal">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">New Modal</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+				
                 <div class="modal-body">
                     new page every time isn't always the best user experience. To make interfaces more engaging, modals are used instead of a new page. Modals can be hard to design from scratch, but Bootstrap provides a convenient way to create them. In this task, you will create a Bootstrap modal that will be displayed when a button is clicked.
                 </div>
+				
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
